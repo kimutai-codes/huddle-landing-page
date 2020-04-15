@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-image: url(/images/bg-hero-desktop.svg);
+}
+
+
+
+.top-container{
+    background-color: hsl(192, 72%, 80%);
+    padding: 40px;
+}
+
+.content{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+
+header .btn{
+    float: right;
+    background-color: white;
+    padding: 13px 20px;
+    color: black;
+    border-radius: 25px;
+}
+
+.pink{
+    background-color:hsl(322, 100%, 66%);
+    color: #fff;
+    display:block;
+    width: 30%;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 40px;
+}
+
+
+
+.item{
+    margin: 60px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    box-sizing: inherit;
+    display: flex;
+}
+
+.text{
+    align-self: center;
+}
+
+.img{
+    width: 400px ;
+    padding: 0px 30px;
+}
+
+.img-box{
+    margin: 0px 70px;
+}
+.picha{
+    width: 600px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin: 30px;
+}
+
+footer{
+    background-color:hsl(192, 100%, 9%);
+    height: auto;
+}
+
+.chini .pink{
+    position: relative;
+    left: 25%;
+}
+
+.ready{
+    float: right;
+    width: 50%;
+	display: block;
+	padding: 30px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 15px;
+    position:relative;
+	top: -40px;
+	right: 25%;
+	-webkit-box-shadow: 1px 1px 5px 1px rgba(4, 22, 38, 0.52);
+	box-shadow: 1px 1px 5px 1px rgba(4, 22, 38, 0.52);
+}
+
+.footer-info{
+    margin-top: 100px;
+    color: #fff;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    */
+}
+
+.about{
+    margin-top: 60px;
+}
+
+.about a{
+    color: #fff;
+    display: block;
+}
+
+.down{
+    padding: 60px;
+}
+
+.h p{
+    padding-top: 20px;
+}
